@@ -11,3 +11,15 @@ protocol Persistansable {
     func fetchAll(completion: Swift.Result<Model, Error>)
     func add(completion: Swift.Result<Void, Error>)
 }
+
+class PersistantStorage: Persistansable {
+    func fetchAll(completion: Result<Model, Error>) {
+        //
+    }
+
+    func add(completion: Result<Void, Error>) {
+        //
+    }
+
+
+}
