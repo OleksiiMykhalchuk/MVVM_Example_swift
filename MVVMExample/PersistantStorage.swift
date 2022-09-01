@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol Persistansable {
+    func fetchAll(completion: Swift.Result<Model, Error>)
+    func add(completion: Swift.Result<Void, Error>)
+}
