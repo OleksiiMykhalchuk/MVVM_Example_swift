@@ -14,6 +14,7 @@
 		8858F75328C0CC41007416E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8858F75228C0CC41007416E4 /* Assets.xcassets */; };
 		8858F75628C0CC41007416E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8858F75428C0CC41007416E4 /* LaunchScreen.storyboard */; };
 		8858F75E28C0CC95007416E4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858F75D28C0CC95007416E4 /* ViewModel.swift */; };
+		8858F76028C0CD2C007416E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858F75F28C0CD2C007416E4 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8858F75528C0CC41007416E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8858F75728C0CC41007416E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8858F75D28C0CC95007416E4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8858F75F28C0CD2C007416E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8858F75228C0CC41007416E4 /* Assets.xcassets */,
 				8858F75428C0CC41007416E4 /* LaunchScreen.storyboard */,
 				8858F75728C0CC41007416E4 /* Info.plist */,
+				8858F75F28C0CD2C007416E4 /* Model.swift */,
 			);
 			path = MVVMExample;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8858F76028C0CD2C007416E4 /* Model.swift in Sources */,
 				8858F74E28C0CC3F007416E4 /* ViewController.swift in Sources */,
 				8858F74A28C0CC3F007416E4 /* AppDelegate.swift in Sources */,
 				8858F75E28C0CC95007416E4 /* ViewModel.swift in Sources */,
