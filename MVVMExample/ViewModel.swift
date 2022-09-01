@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+extension ViewController {
+    final class ViewModel {
+        func start() {
+            
+        }
+    }
+}
