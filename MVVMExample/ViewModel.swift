@@ -9,6 +9,10 @@ import Foundation
 
 extension ViewController {
     final class ViewModel {
+        private var persistantStorage: Persistansable!
+        init(persistantStorage: Persistansable) {
+            self.persistantStorage = persistantStorage
+        }
         func start() {
             
         }
