@@ -66,12 +66,12 @@
 				8858F74B28C0CC3F007416E4 /* SceneDelegate.swift */,
 				8858F74D28C0CC3F007416E4 /* ViewController.swift */,
 				8858F75D28C0CC95007416E4 /* ViewModel.swift */,
+				8858F75F28C0CD2C007416E4 /* Model.swift */,
+				8858F76128C0CDA3007416E4 /* PersistantStorage.swift */,
 				8858F74F28C0CC3F007416E4 /* Main.storyboard */,
 				8858F75228C0CC41007416E4 /* Assets.xcassets */,
 				8858F75428C0CC41007416E4 /* LaunchScreen.storyboard */,
 				8858F75728C0CC41007416E4 /* Info.plist */,
-				8858F75F28C0CD2C007416E4 /* Model.swift */,
-				8858F76128C0CDA3007416E4 /* PersistantStorage.swift */,
 			);
 			path = MVVMExample;
 			sourceTree = "<group>";
